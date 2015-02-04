@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`base` (*Dockerfile*)](https://github.com/nerro/docker-images/blob/master/base/wheezy/Dockerfile)
+- [`wheezy` (*Dockerfile*)](https://github.com/nerro/docker-images/blob/master/base/wheezy/Dockerfile)
 
 For more information about this image and its history, please see the
 [GitHub repo](https://github.com/nerro/docker-images).
@@ -8,14 +8,14 @@ For more information about this image and its history, please see the
 
 # What is `base`?
 
-`base` is very small and minimal image. You can submit it as an abstract java class and use
+`base` is a very small and minimal image. You can submit it as an abstract java class and use
 as base for your images.
 
 ![logo](https://raw.githubusercontent.com/nerro/docker-images/master/base/wheezy/logo.png)
 
 
 # How to use this image
-This images is designed to be the foundation of a language-stack image.
+This image is designed to be the foundation of a language-stack image.
 
 ## What is included?
 
@@ -25,7 +25,7 @@ package. This is perfect for cases where downloading files is very common and ne
 
 # License
 
-This images is licensed under the MIT License (see LICENSE).
+This images is licensed under the MIT License (see [LICENSE](https://github.com/nerro/docker-images/LICENSE)).
 
 
 # Supported Docker versions
