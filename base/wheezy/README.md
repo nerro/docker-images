@@ -25,7 +25,7 @@ package. This is perfect for cases where downloading files is very common and ne
 
 # License
 
-This images is licensed under the MIT License (see [LICENSE](https://github.com/nerro/docker-images/LICENSE)).
+This images is licensed under the MIT License (see [LICENSE](https://github.com/nerro/docker-images/blob/master/LICENSE)).
 
 
 # Supported Docker versions
