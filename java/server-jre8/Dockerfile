@@ -9,5 +9,5 @@ RUN wget --no-check-certificate --directory-prefix=/tmp \
     update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_31/bin/java 100 && \
     rm -rf /tmp/* && rm -rf /var/log/*
 
-ENV JAVA_HOME=/opt/java/jdk1.8.0_31
+ENV JAVA_HOME /opt/java/jdk1.8.0_31
 
