@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`wheezy` (*Dockerfile*)](https://github.com/nerro/docker-images/blob/master/base/wheezy/Dockerfile)
+- [`latest`, `wheezy` (*Dockerfile*)](https://github.com/nerro/docker-images/blob/master/base/wheezy/Dockerfile)
 
 For more information about this image and its history, please see the
 [GitHub repo](https://github.com/nerro/docker-images).
