@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`0.12.0` (*Dockerfile*)](https://github.com/nerro/docker-images/blob/master/node/0.12.0/Dockerfile)
+- [`0.12.1` (*Dockerfile*)](https://github.com/nerro/docker-images/blob/master/node/0.12.1/Dockerfile)
 
 For more information about this image and its history, please see the
 [GitHub repo](https://github.com/nerro/docker-images).
@@ -10,7 +10,7 @@ For more information about this image and its history, please see the
 
 `TODO`
 
-![logo](https://raw.githubusercontent.com/nerro/docker-images/master/node/0.12.0/logo.png)
+![logo](https://raw.githubusercontent.com/nerro/docker-images/master/node/0.12.1/logo.png)
 
 
 # How to use this image
