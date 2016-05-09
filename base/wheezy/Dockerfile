@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM debian:7.10
 MAINTAINER Pavel Sorokin <pavel.sorokin@nerro.eu>
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
