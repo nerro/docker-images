@@ -1,13 +1,11 @@
 FROM nerro/base:wheezy
 MAINTAINER Pavel Sorokin <pavel.sorokin@nerro.eu>
 
-RUN wget --no-check-certificate --directory-prefix=/tmp \
-         --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" \
-         http://download.oracle.com/otn-pub/java/jdk/8u31-b13/server-jre-8u31-linux-x64.tar.gz && \
-    mkdir /opt/java && \
-    tar -xzf /tmp/server-jre-8u31-linux-x64.tar.gz -C /opt/java && \
-    update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_31/bin/java 100 && \
-    rm -rf /tmp/* && rm -rf /var/log/*
+ENV JAVA_VERSION 8u92
 
-ENV JAVA_HOME /opt/java/jdk1.8.0_31
+RUN wget --no-check-certificate --output-document /javinla.sh https://github.com/nerro/javinla/releases/download/v0.2.0/javinla.sh \
+    && chmod +x /javinla.sh \
+    && /javinla.sh install ${JAVA_VERSION} \
+    && rm -rf /javinla.sh
 
+ENV JAVA_HOME /opt/java/${JAVA_VERSION}
