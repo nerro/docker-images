@@ -30,7 +30,7 @@ This images is licensed under the MIT License (see [LICENSE](https://github.com/
 
 # Supported Docker versions
 
-This images is officially supported on Docker version 1.5.
+This images is officially supported on Docker version 1.11.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 
