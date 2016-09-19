@@ -11,6 +11,8 @@ For more information about this image and its history, please see the
 `base` is a very small and minimal image. You can submit it as an abstract java class and use
 as base for your images.
 
+[![](https://images.microbadger.com/badges/version/nerro/base.svg)](https://microbadger.com/images/nerro/base)[![](https://images.microbadger.com/badges/image/nerro/base.svg)](https://microbadger.com/images/nerro/base)
+
 ![logo](https://raw.githubusercontent.com/nerro/docker-images/master/base/wheezy/logo.png)
 
 
