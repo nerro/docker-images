@@ -21,7 +21,7 @@ This image is designed to be the foundation of a language-stack image.
 
 ## What is included?
 
-The `wheezy` tag of this image points to `debian:wheezy` image and includes the `wget`
+The `wheezy` tag of this image points to `debian:wheezy-slim` image and includes the `wget`
 package. This is perfect for cases where downloading files is very common and necessary.
 
 
@@ -32,7 +32,7 @@ This images is licensed under the MIT License (see [LICENSE](https://github.com/
 
 # Supported Docker versions
 
-This images is officially supported on Docker version 1.11.
+This images is officially supported on Docker version 1.13.
 
 Support for older versions (down to 1.0) is provided on a best-effort basis.
 
