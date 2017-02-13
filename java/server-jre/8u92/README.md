@@ -10,7 +10,7 @@ For more information about this image and its history, please see the
 
 `TODO`
 
-![logo](https://raw.githubusercontent.com/nerro/docker-images/master/java/server-jre/logo.png)
+![logo](https://raw.githubusercontent.com/nerro/docker-images/master/java/logo.png)
 
 
 # How to use this image
