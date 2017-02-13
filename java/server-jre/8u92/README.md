@@ -1,6 +1,6 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`server-jre8` (*Dockerfile*)](https://github.com/nerro/docker-images/blob/master/java/server-jre8/Dockerfile)
+- [`8u92-server-jre` (*Dockerfile*)](https://github.com/nerro/docker-images/blob/master/java/server-jre/8u92/Dockerfile)
 
 For more information about this image and its history, please see the
 [GitHub repo](https://github.com/nerro/docker-images).
@@ -10,7 +10,7 @@ For more information about this image and its history, please see the
 
 `TODO`
 
-![logo](https://raw.githubusercontent.com/nerro/docker-images/master/java/server-jre8/logo.png)
+![logo](https://raw.githubusercontent.com/nerro/docker-images/master/java/server-jre/logo.png)
 
 
 # How to use this image
