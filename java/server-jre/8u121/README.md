@@ -1,14 +1,14 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`8u121-server-jre` (*Dockerfile*)](https://github.com/nerro/docker-images/blob/master/java/server-jre/8u121/Dockerfile)
-
-For more information about this image and its history, please see the
-[GitHub repo](https://github.com/nerro/docker-images).
+For more information about this image (supported tags and Dockerfile links) and
+its history, please see the [GitHub repo](https://github.com/nerro/docker-images).
 
 
 # What is `nerro/java`?
 
-`TODO`
+`nerro/java` is a Docker image with Oracle Server JRE.
+
+[![](https://images.microbadger.com/badges/image/nerro/java:8u121-server-jre.svg)](https://microbadger.com/images/nerro/java)
 
 ![logo](https://raw.githubusercontent.com/nerro/docker-images/master/java/logo.png)
 
