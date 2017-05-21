@@ -1,6 +1,7 @@
 # Supported tags and respective `Dockerfile` links
 
-- [`alpine` (*Dockerfile*)](https://github.com/nerro/docker-images/blob/master/base/alpine/Dockerfile)
+- [`alpine` (*base/alpine/Dockerfile*)](https://github.com/nerro/docker-images/blob/master/base/alpine/Dockerfile)
+- [`wheezy` (*base/wheezy/Dockerfile*)](https://github.com/nerro/docker-images/blob/master/base/wheezy/Dockerfile)
 
 For more information about this image and its history, please see the
 [GitHub repo](https://github.com/nerro/docker-images).
@@ -11,7 +12,7 @@ For more information about this image and its history, please see the
 `base` is a very small and minimal image. You can submit it as an abstract java class and use
 as base for your images.
 
-![logo](https://raw.githubusercontent.com/nerro/docker-images/master/base/alpine/logo.png)
+![logo](https://raw.githubusercontent.com/nerro/docker-images/master/base/logo.png)
 
 
 # How to use this image
@@ -19,9 +20,8 @@ This image is designed to be the foundation of a language-stack image.
 
 ## What is included?
 
-The `alpine` tag of this image points to `alpine:3.5` image and includes the `wget`
-and `ca-certificates` packages. This is perfect for cases where downloading files is
-very common and necessary.
+The base images include the `wget` and `ca-certificates` packages. This is perfect for cases
+where downloading files is very common and necessary.
 
 
 # License

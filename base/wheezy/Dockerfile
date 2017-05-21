@@ -7,4 +7,3 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-ins
     && rm -rf /var/lib/apt/lists \
     && rm -rf /var/log/* \
     && rm -rf /tmp/*
-
