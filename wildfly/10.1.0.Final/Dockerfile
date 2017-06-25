@@ -18,7 +18,7 @@ RUN wget --output-document wildfly-${WILDFLY_VERSION}.tar.gz http://download.jbo
     && wget -O /usr/local/bin/gosu https://github.com/tianon/gosu/releases/download/1.10/gosu-amd64 \
     && chmod +x /usr/local/bin/gosu
 
-VOLUME ["/opt/wildfly/standalone/deployments", "/opt/wildfly/standalone/log"]
+VOLUME ["/opt/wildfly/standalone/deployments"]
 
 EXPOSE 8080 9990
 
