@@ -9,6 +9,7 @@ RUN wget --output-document wildfly-${WILDFLY_VERSION}.tar.gz http://download.jbo
     && sha1sum wildfly-${WILDFLY_VERSION}.tar.gz | grep $WILDFLY_SHA1 \
     && mkdir -p /opt/wildfly \
     && tar -xzf wildfly-${WILDFLY_VERSION}.tar.gz -C /opt/wildfly --strip-components=1 \
+    && rm -rf /opt/wildfly/docs \
     && rm wildfly-${WILDFLY_VERSION}.tar.gz \
 
     && groupadd -r wildfly --gid=999 && useradd -s /usr/sbin/nologin -r -g wildfly --uid=999 wildfly \
